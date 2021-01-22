@@ -1,116 +1,107 @@
 # cdlin的博客
 
-## 转载
+##  1 Windows命令(DOS)
 
-JavaScript深入系列 15 篇已完结。
+#### 1.1 打开CMD
+```
+Windows+r
+```
+#### 1.2 切换盘符
+```
+c: d:
+```
+#### 1.3 查看相关指示/帮助
+```
+xxx/?
+```
+#### 1.4 显示当前路径下的文件和文件夹 dir
 
-JavaScript专题系列 20 篇已完结。
+|    参数    | 含义                                                  |
+| :--------: | :---------------------------------------------------- |
+|   **/?**   | **查看相关指示**                                      |
+|   **/s**   | **显示指定目录和所有子目录中的文件。ctrl+c 退出显示** |
+|   **/p**   | **在每个信息屏幕后暂停**                              |
+|  **/p/s**  | **一页一页的看，ctrl+c 退出显示**                     |
+|   **/w**   | **用宽列表格式显示**                                  |
+|   **/o**   | **用分类顺序列出文件，默认文件夹在前，文件在后**      |
+| **>a.txt** | **把查找出的文件信息写入到a.txt中。**                 |
 
-underscore 系列 8 篇已完结。
+#### 1.5 cd
 
-ES6 系列 20 篇已完结。
+```
+cd进入到，后面加文件夹或文件名；
+cd .当前路径；
+cd ..返回上一级；cd/返回盘符
+```
 
-## 浏览器相关
+#### 1.6 **创建文件夹** md
 
-1. [浏览器系列之 Cookie 和 SameSite 属性](https://github.com/mqyqingfeng/Blog/issues/157)
+```
+创建三个文件夹 md a b c;
+创建多层文件夹 md d:\a\a\a
+```
 
-## 面试相关
+#### 1.7 **复制文件**
 
-1. [淘系前端校招负责人元彦直播答疑文字实录](https://github.com/mqyqingfeng/Blog/issues/167)
-2. [业务前端的困境](https://github.com/mqyqingfeng/Blog/issues/172)
+```
+copy a.txt e\a
+```
 
-## 深入系列目录
+#### 1.8 **创建新文件**
 
-1. [JavaScirpt深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
-2. [JavaScript深入之词法作用域和动态作用域](https://github.com/mqyqingfeng/Blog/issues/3)
-3. [JavaScript深入之执行上下文栈](https://github.com/mqyqingfeng/Blog/issues/4)
-4. [JavaScript深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
-5. [JavaScript深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
-6. [JavaScript深入之从ECMAScript规范解读this](https://github.com/mqyqingfeng/Blog/issues/7)
-7. [JavaScript深入之执行上下文](https://github.com/mqyqingfeng/Blog/issues/8)
-8. [JavaScript深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
-9. [JavaScript深入之参数按值传递](https://github.com/mqyqingfeng/Blog/issues/10)
-10. [JavaScript深入之call和apply的模拟实现](https://github.com/mqyqingfeng/Blog/issues/11)
-11. [JavaScript深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
-12. [JavaScript深入之new的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
-13. [JavaScript深入之类数组对象与arguments](https://github.com/mqyqingfeng/Blog/issues/14)
-14. [JavaScript深入之创建对象的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/15)
-15. [JavaScript深入之继承的多种方式以及优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
-16. [JavaScript深入系列15篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/17)
-17. [JavaScript深入之浮点数精度](https://github.com/mqyqingfeng/Blog/issues/155)
-18. [JavaScript深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
-19. [JavaScript深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
+```
+copy nul a.txt
+```
 
-## 专题系列目录
+#### 1.9 **创建新文件并写入信息并保存**
 
-1. [JavaScript专题之跟着underscore学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
-2. [JavaScript专题之跟着underscore学节流](https://github.com/mqyqingfeng/Blog/issues/26)
-3. [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27)
-4. [JavaScript专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
-5. [JavaScript专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
-6. [JavaScript专题之深浅拷贝](https://github.com/mqyqingfeng/Blog/issues/32)
-7. [JavaScript专题之从零实现jQuery的extend](https://github.com/mqyqingfeng/Blog/issues/33)
-8. [JavaScript专题之如何求数组的最大值和最小值](https://github.com/mqyqingfeng/Blog/issues/35)
-9. [JavaScript专题之数组扁平化](https://github.com/mqyqingfeng/Blog/issues/36)
-10. [JavaScript专题之学underscore在数组中查找指定元素](https://github.com/mqyqingfeng/Blog/issues/37)
-11. [JavaScript专题之jQuery通用遍历方法each的实现](https://github.com/mqyqingfeng/Blog/issues/40)
-12. [JavaScript专题之如何判断两个对象相等](https://github.com/mqyqingfeng/Blog/issues/41)
-13. [JavaScript专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
-14. [JavaScript专题之偏函数](https://github.com/mqyqingfeng/Blog/issues/43)
-15. [JavaScript专题之惰性函数](https://github.com/mqyqingfeng/Blog/issues/44)
-16. [JavaScript专题之函数组合](https://github.com/mqyqingfeng/Blog/issues/45)
-17. [JavaScript专题之函数记忆](https://github.com/mqyqingfeng/Blog/issues/46)
-18. [JavaScript专题之递归](https://github.com/mqyqingfeng/Blog/issues/49)
-19. [JavaScript专题之乱序](https://github.com/mqyqingfeng/Blog/issues/51)
-20. [JavaScript专题之解读 v8 排序源码](https://github.com/mqyqingfeng/Blog/issues/52)
-21. [JavaScript专题系列20篇正式完结！](https://github.com/mqyqingfeng/Blog/issues/53)
-22. [JavaScript专题之花式表示26个字母](https://github.com/mqyqingfeng/Blog/issues/166)
+```
+copy con b.txt
+shutdown -s -t 600
+ctrl+z
+```
 
-## underscore 系列目录
+#### 1.10 **更改名称**
 
-1. [underscore 系列之如何写自己的 underscore](https://github.com/mqyqingfeng/Blog/issues/56)
-2. [underscore 系列之链式调用](https://github.com/mqyqingfeng/Blog/issues/57)
-3. [underscore 系列之内部函数 cb 和 optimizeCb](https://github.com/mqyqingfeng/Blog/issues/58)
-4. [underscore 系列之内部函数 restArgs](https://github.com/mqyqingfeng/Blog/issues/60)
-5. [underscore 系列之防冲突与 Utility Functions](https://github.com/mqyqingfeng/Blog/issues/62)
-6. [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
-7. [underscore 系列之实现一个模板引擎(下)](https://github.com/mqyqingfeng/Blog/issues/70)
-8. [underscore 系列之字符实体与 _.escape](https://github.com/mqyqingfeng/Blog/issues/77)
-9. [underscore 的源码该如何阅读？](https://github.com/mqyqingfeng/Blog/issues/79)
+```
+rename oldFullName newFullName 
+ren oldFullName newFullName
+```
 
-## ES6 系列目录
+#### 1.11 **删除文件**
 
-1. [ES6 系列之 let 和 const](https://github.com/mqyqingfeng/Blog/issues/82)
-2. [ES6 系列之模板字符串](https://github.com/mqyqingfeng/Blog/issues/84)
-3. [ES6 系列之箭头函数](https://github.com/mqyqingfeng/Blog/issues/85)
-4. [ES6 系列之模拟实现 Symbol 类型](https://github.com/mqyqingfeng/Blog/issues/87)
-5. [ES6 系列之迭代器与 for of](https://github.com/mqyqingfeng/Blog/issues/90)
-6. [ES6 系列之模拟实现一个 Set 数据结构](https://github.com/mqyqingfeng/Blog/issues/91)
-7. [ES6 系列之 WeakMap](https://github.com/mqyqingfeng/Blog/issues/92)
-8. [ES6 系列之我们来聊聊 Promise](https://github.com/mqyqingfeng/Blog/issues/98)
-9. [ES6 系列之 Generator 的自动执行](https://github.com/mqyqingfeng/Blog/issues/99)
-10. [ES6 系列之我们来聊聊 Async](https://github.com/mqyqingfeng/Blog/issues/100)
-11. [ES6 系列之异步处理实战](https://github.com/mqyqingfeng/Blog/issues/101)
-12. [ES6 系列之 Babel 将 Generator 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/102)
-13. [ES6 系列之 Babel 将 Async 编译成了什么样子](https://github.com/mqyqingfeng/Blog/issues/103)
-14. [ES6 系列之 Babel 是如何编译 Class 的(上)](https://github.com/mqyqingfeng/Blog/issues/105)
-15. [ES6 系列之 Babel 是如何编译 Class 的(下)](https://github.com/mqyqingfeng/Blog/issues/106)
-16. [ES6 系列之 defineProperty 与 proxy](https://github.com/mqyqingfeng/Blog/issues/107)
-17. [ES6 系列之模块加载方案](https://github.com/mqyqingfeng/Blog/issues/108)
-18. [ES6 系列之我们来聊聊装饰器](https://github.com/mqyqingfeng/Blog/issues/109)
-19. [ES6 系列之私有变量的实现](https://github.com/mqyqingfeng/Blog/issues/110)
-20. [ES6 完全使用手册](https://github.com/mqyqingfeng/Blog/issues/111)
+```
+del a.txt
+```
 
-## 注意
+#### 1.12 **删除文件夹**
 
-深入系列文章部分是有先后顺序的，按照目录结构顺序阅读效果最好。
+```
+rd e\a 只删除了a文件夹
+```
 
-## 勘误及提问
+#### 1.13 **修改名字**
 
-如果有疑问或者发现错误，可以在相应的 issues 进行提问或勘误。
+```
+ren 旧文件 新文件
+```
 
-如果喜欢或者有所启发，欢迎 star，对作者也是一种鼓励。
+#### 1.14 **关机**
 
-## License
+```
+shutdown - s 关闭本地计算机
+shutdown -s -t 600 十分钟关机（不写时间不好用）
+shutdown –a 取消关机
+```
 
-所有文章采用[知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)进行许可。
+#### 1.15 **查看本机 ip **
+
+```
+ipconfig
+```
+
+#### 1.16 **判断是否可以连接某一个网址**
+
+```
+ping xxx(ip地址或网站)
+```
