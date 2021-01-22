@@ -1,8 +1,4 @@
-# 冴羽的博客
-
-## 淘系招聘
-
-淘系消费者运营前端团队招人啦，从站外投放、唤端拉新到端内承接、手淘内各种互动项目，到商品详情、店铺订单等基础链路，个个都是千万上亿流量的项目，机遇挑战多多，不妨加我了解一下呗 mqyqingfeng
+# cdlin的博客
 
 ## 进度
 
@@ -17,13 +13,6 @@ ES6 系列 20 篇已完结。
 现在写起了各种单篇……
 
 React 系列还在懒惰中……
-
-## 专栏
-
-* [掘金主页](https://juejin.im/user/58e4b9b261ff4b006b3227f4)
-* [segmentfault主页](https://segmentfault.com/u/yayu/articles)
-* [知乎专栏](https://zhuanlan.zhihu.com/c_1042806379215601664)
-* 新开公众号 搜索「yayujs」 或者 「冴羽的JavaScript博客」
 
 ## 浏览器相关
 
