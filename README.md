@@ -1,149 +1,47 @@
-<<<<<<< HEAD
+### 博客地址
 
-# cdl的博客
+Github托管的是以前Jekyll版本的源码，现在博客用Hexo重新搭建
+#### 预览
 
-## 进度
+* Jekyll版本：EZLippi.github.io
+* Hexo 版本： [www.ezlippi.com](http://www.ezlippi.com)
+* Hexo版本源码：[https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/](https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/)
 
-JavaScript深入系列 15 篇已完结。
+### 使用Jekyll版本作为博客模板，仅需如下几步：
 
-JavaScript专题系列 20 篇已完结。
+1. 首先Fork或Download一份本项目代码。 
+2. 修改_config.yaml及about.md文件，以变更个人信息。 
+3. 修改_include目录下相关文件，以配置网站统计(analytics.html)，网友评论(comment.html)，右侧栏目(categories.html),热门文章(hot.html),友情链接(links.html)等。 
+4. 修改CNAME文件，以绑定自己的域名。 
+5. 删除_posts下文章，换成你自己的。 
+6. 去谷歌自定义搜索新建一个你的搜索引擎，把你的Id替换根目录下search.html我的ID
+7. 最后，push到你自己的博客Repo~ 
 
-underscore 系列 8 篇已完结。
+ *^_^*如果愿意，Star本项目一个吧~ 
 
-ES6 系列 20 篇已完结。
+### 本项目使用了
 
-现在写起了各种单篇……
+1. CNZZ的网站统计服务，官网：http://cnzz.com 
+2. 多说的评论功能，官网:http://duoshuo.com/
 
-React 系列还在懒惰中……
+### 联系方式
 
-## 浏览器相关
+联系方式： Email(ouyanglip@gmail.com) 
 
-1. [浏览器系列之 Cookie 和 SameSite 属性](https://github.com/cdlin07/cdlin07.github.io/blob/main/articles/%E4%B8%93%E9%A2%98%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/JavaScript%E4%B8%93%E9%A2%98%E4%B9%8BjQuery%E9%80%9A%E7%94%A8%E9%81%8D%E5%8E%86%E6%96%B9%E6%B3%95each%E7%9A%84%E5%AE%9E%E7%8E%B0.md)
 
-## 面试相关
+### 使用本项目作模板的博客链接
 
-1. [淘系前端校招负责人元彦直播答疑文字实录](https://github.com/mqyqingfeng/Blog/issues/167)
-2. [业务前端的困境](https://github.com/mqyqingfeng/Blog/issues/172)
+* http://www.94geek.com  
+* http://www.haidaoxiaofei.me  
+* http://www.malphi.net  
+* http://happyaround.com  
+* http://tencentlocation.github.io  
+* http://wtaps.github.io 
+* http://maoshu.cc
+* http://x-carto.com/
+* http://flypeom.site
 
-## 深入系列目录
+## 2016-02-25更新
 
-1. [JavaScirpt深入之从原型到原型链](https://github.com/cdlin07/Blog/issues/2)
-
-## 勘误及提问
-
-如果有疑问或者发现错误，可以在相应的 issues 进行提问或勘误。
-
-如果喜欢或者有所启发，欢迎 star，对作者也是一种鼓励。
-
-## License
-
-所有文章采用[知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)进行许可。
-=======
-# cdlin的博客
-
-##  1 Windows命令(DOS)
-
-#### 1.1 打开CMD
-```
-Windows+r
-```
-#### 1.2 切换盘符
-```
-c: d:
-```
-#### 1.3 查看相关指示/帮助
-```
-xxx/?
-```
-#### 1.4 显示当前路径下的文件和文件夹 dir
-
-|    参数    | 含义                                                  |
-| :--------: | :---------------------------------------------------- |
-|   **/?**   | **查看相关指示**                                      |
-|   **/s**   | **显示指定目录和所有子目录中的文件。ctrl+c 退出显示** |
-|   **/p**   | **在每个信息屏幕后暂停**                              |
-|  **/p/s**  | **一页一页的看，ctrl+c 退出显示**                     |
-|   **/w**   | **用宽列表格式显示**                                  |
-|   **/o**   | **用分类顺序列出文件，默认文件夹在前，文件在后**      |
-| **>a.txt** | **把查找出的文件信息写入到a.txt中。**                 |
-
-#### 1.5 cd
-
-```
-cd进入到，后面加文件夹或文件名；
-cd .当前路径；
-cd ..返回上一级；cd/返回盘符
-```
-
-#### 1.6 **创建文件夹** md
-
-```
-创建三个文件夹 md a b c;
-创建多层文件夹 md d:\a\a\a
-```
-
-#### 1.7 **复制文件**
-
-```
-copy a.txt e\a
-```
-
-#### 1.8 **创建新文件**
-
-```
-copy nul a.txt
-```
-
-#### 1.9 **创建新文件并写入信息并保存**
-
-```
-copy con b.txt
-shutdown -s -t 600
-ctrl+z
-```
-
-#### 1.10 **更改名称**
-
-```
-rename oldFullName newFullName 
-ren oldFullName newFullName
-```
-
-#### 1.11 **删除文件**
-
-```
-del a.txt
-```
-
-#### 1.12 **删除文件夹**
-
-```
-rd e\a 只删除了a文件夹
-```
-
-#### 1.13 **修改名字**
-
-```
-ren 旧文件 新文件
-```
-
-#### 1.14 **关机**
-
-```
-shutdown - s 关闭本地计算机
-shutdown -s -t 600 十分钟关机（不写时间不好用）
-shutdown –a 取消关机
-```
-
-#### 1.15 **查看本机 ip **
-
-```
-ipconfig
-```
-
-#### 1.16 **判断是否可以连接某一个网址**
-
-```
-ping xxx(ip地址或网站)
-```
->>>>>>> 737ea4c108c1611f5f6d5b850eba55760d42b83c
+* 本博客由Jekyl迁移到Hexo,博客地址[ezlippi](www.ezlippi.com),源码托管在了国内的[Coding.net](https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/)
+* 使用Hexo搭建个人博客具体教程参考[Jekyll迁移到Hexo建立个人博客](http://www.ezlippi.com/blog/2016/02/jekyll-to-hexo.html)
